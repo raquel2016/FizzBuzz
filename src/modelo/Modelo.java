@@ -1,21 +1,19 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package modelo;
 
+package modelo;
 /**
  *
  * @author Raquel Lugo
  */
 public class Modelo {
     
+    public Modelo(){
+    
+    }
+    
      public void fizzBuzz() {
-        
         for(int i=1; i <= 100; i++){
             String aux = "";
-          
+        
             if(divisible3(i)){ aux ="Fizz"; }
               if(divisible5(i)){ aux += "Buzz"; }
                 if(aux.length()==0 ){ aux = String.valueOf(i);}
